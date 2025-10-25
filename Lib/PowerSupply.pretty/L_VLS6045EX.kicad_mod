@@ -1,0 +1,171 @@
+(footprint "L_VLS6045EX"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1.55 -4.025 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9a885e44-0c8e-43f3-92e0-2eb7d12f836b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "L_VLS6045EX"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "416bff2a-b667-4b15-81e7-802e11321432")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "09beeaa0-15b8-4d57-a142-ef3d8f6dded9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a7f1cd6-0bc4-41cf-8581-dd42a08fe062")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.45 -3)
+		(end -3.45 3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5610b777-f0c6-4da8-a4e4-dddc109695ba")
+	)
+	(fp_line
+		(start -3.45 3)
+		(end -3 3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9488b4a5-012b-4d09-ac4f-ed1c87ab6a2e")
+	)
+	(fp_line
+		(start -3 -3)
+		(end -3.45 -3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "65ad6fdd-80ad-4d80-9b2c-d60eb3c12f3e")
+	)
+	(fp_line
+		(start -3 -3)
+		(end 3 -3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "049aa724-865d-4949-8b0d-d74811bf4b03")
+	)
+	(fp_line
+		(start -3 3)
+		(end 3 3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "19e3c220-883c-41e3-9be4-19b059babc38")
+	)
+	(fp_rect
+		(start -3.25 -3.25)
+		(end 3.25 3.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "adcbea16-0412-46c5-ab91-f13282e2f49c")
+	)
+	(fp_rect
+		(start -3 -3)
+		(end 3 3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "52126ea8-82b6-4bac-a6d9-93ac77513539")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "57bd55f6-d0af-4be8-a166-ee012bdd7cfc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.1 0)
+		(size 1.9 5.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.07)
+		(clearance 0)
+		(thermal_bridge_angle 45)
+		(uuid "4f1f348a-008c-4307-b119-81276516f8dd")
+	)
+	(pad "2" smd rect
+		(at 2.1 0)
+		(size 1.9 5.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.07)
+		(clearance 0)
+		(thermal_bridge_angle 45)
+		(uuid "77832506-a20a-402d-80a8-4cf14f090355")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Doc/Inductor/L_vls6045ex.step"
+		(offset
+			(xyz 0 0 2.2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -0 -0)
+		)
+	)
+)
