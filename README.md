@@ -2,7 +2,16 @@
 
 Simple LMR50410 DC-DC Converter
 
+Fig. 1 Schematics of the Converter
+
+![Schematics of the Converter](./Doc/Images/Schematics.png)
+
+Fig 2. Front view of the PCB
+
+![Front view of the PCB](./Doc/Images/FrontView.jpg)
+
 ## External documents
+
 [Design rules for JLCPCB](https://forum.kicad.info/t/design-rules-for-jlcpcb/46087)
 
 [Mastering PCB Design Rules: A Comprehensive Guide for Optimal Results](https://jlcpcb.com/blog/a-comprehensive-guide-for-optimal-results)
